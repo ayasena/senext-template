@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "email": "email dev --dir ./emails"
   },
   "dependencies": {
     "@elysia/eden": "^1.4.10",
