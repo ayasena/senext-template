@@ -11,7 +11,8 @@
     "email": "email dev --dir ./emails",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "prepare": "husky"
   },
   "dependencies": {
     "@elysia/eden": "^1.4.10",
@@ -45,6 +46,8 @@
     "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "husky": "^9.1.7",
+    "prettier": "^3.9.4",
     "react-email": "^6.6.6",
     "tailwindcss": "^4",
     "typescript": "^5"
